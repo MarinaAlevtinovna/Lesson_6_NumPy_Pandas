@@ -1,23 +1,14 @@
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
 import csv
 
-
-# Импортируем модуль CSV
-import csv
-
-
 # Если используем Google Chrome, то пишем driver = webdriver.Chrome()
 driver = webdriver.Firefox()
-driver = webdriver.Firefox()
-
 
 # URL страницы
 url = 'https://www.cian.ru/snyat-kvartiru-1-komn-ili-2-komn/'
-
 
 # Открытие страницы
 driver.get(url)
