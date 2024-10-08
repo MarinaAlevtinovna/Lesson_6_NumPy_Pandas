@@ -19,7 +19,7 @@ plt.hist(prices, bins=10, edgecolor='black')
 
 
 # Добавление заголовка и меток осей
-plt.title('Гистограмма цен')
+plt.title('Гистограмма цен на кровати')
 plt.xlabel('Цена')
 plt.ylabel('Частота')
 
